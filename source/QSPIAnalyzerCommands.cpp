@@ -18,6 +18,7 @@ void QSPIMakeCommandList() {
 	qspi_cmds[0xBB] = CommandAttr { true,true,true,false,0x03,0x03,"Dual I/O Fast Read" };
 	qspi_cmds[0x6B] = CommandAttr { true,true,true,false,0x01,0x0F,"Quad Output Fast Read" };
 	qspi_cmds[0xEB] = CommandAttr { true,true,true,false,0x0F,0x0F,"Quad I/O Fast Read" };
+	qspi_cmds[0xEE] = CommandAttr { true,true,true,false,0x0F,0x0F,"Quad I/O Fast Read" };
 	qspi_cmds[0x06] = CommandAttr { false,false,false,false,0x00,0x00,"Write Enable" };
 	qspi_cmds[0x04] = CommandAttr { false,false,false,false,0x00,0x00,"Write Disable" };
 	qspi_cmds[0x05] = CommandAttr { false,false,true,false,0x00,0x02,"Read Status Reg" };
