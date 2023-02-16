@@ -7,36 +7,36 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\QSPIAnalyzer.cpp">
+    <ClCompile Include="$(ProjectDir)\source\QSPIAnalyzer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\QSPIAnalyzerCommands.cpp">
+    <ClCompile Include="$(ProjectDir)\source\QSPIAnalyzerCommands.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\QSPIAnalyzerResults.cpp">
+    <ClCompile Include="$(ProjectDir)\source\QSPIAnalyzerResults.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\QSPIAnalyzerSettings.cpp">
+    <ClCompile Include="$(ProjectDir)\source\QSPIAnalyzerSettings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\QSPISimulationDataGenerator.cpp">
+    <ClCompile Include="$(ProjectDir)\source\QSPISimulationDataGenerator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\QSPIAnalyzer.h">
+    <ClInclude Include="$(ProjectDir)\source\QSPIAnalyzer.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\QSPIAnalyzerCommands.h">
+    <ClInclude Include="$(ProjectDir)\source\QSPIAnalyzerCommands.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\QSPIAnalyzerResults.h">
+    <ClInclude Include="$(ProjectDir)\source\QSPIAnalyzerResults.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\QSPIAnalyzerSettings.h">
+    <ClInclude Include="$(ProjectDir)\source\QSPIAnalyzerSettings.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\QSPISimulationDataGenerator.h">
+    <ClInclude Include="$(ProjectDir)\source\QSPISimulationDataGenerator.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

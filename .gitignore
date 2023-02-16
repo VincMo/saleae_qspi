@@ -1,7 +1,8 @@
 Debug/
 debug/
 Release/
-release/
+Releasex64/
+ReleaseWin32/
 Debug-Legacy-1.1.14/
 *.VC.db
 *.VC.opendb
@@ -9,3 +10,4 @@ Debug-Legacy-1.1.14/
 *.sln.ecd
 *.vcxproj.user
 .vscode/settings.json
+.vs/
